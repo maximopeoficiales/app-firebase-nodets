@@ -1,6 +1,4 @@
 import * as functions from "firebase-functions";
-import dotenv from "dotenv";
-dotenv.config(); //cargo las variables de entorno
 import app from "./app";
 
 // // Start writing Firebase Functions
@@ -8,3 +6,4 @@ import app from "./app";
 //
 
 export const myapp = functions.https.onRequest(app);
+//falta hacer deploy
